@@ -106,6 +106,19 @@ APL:
   codemirror_mode: apl
   codemirror_mime_type: text/apl
   language_id: 6
+ARM assembly:
+  type: programming
+  aliases:
+  - armasm
+  ace_mode: text
+  extensions:
+  - ".s"
+  - ".hdr"
+  filenames:
+  - VersionASM
+  color: "#eeeebb"
+  tm_scope: none
+  language_id: 81614556
 ASN.1:
   type: data
   extensions:
@@ -365,6 +378,14 @@ Awk:
   - nawk
   ace_mode: text
   language_id: 28
+BBC BASIC:
+  type: programming
+  aliases:
+  - bbcbasic
+  ace_mode: text
+  color: "#004499"
+  tm_scope: none
+  language_id: 980104359
 Ballerina:
   type: programming
   extensions:
@@ -486,6 +507,8 @@ C:
   - ".cats"
   - ".h"
   - ".idc"
+  filenames:
+  - VersionNum
   interpreters:
   - tcc
   ace_mode: c_cpp
@@ -559,6 +582,14 @@ CLIPS:
   tm_scope: source.clips
   ace_mode: text
   language_id: 46
+CMHG:
+  type: programming
+  ace_mode: text
+  extensions:
+  - ".cmhg"
+  color: "#dd0000"
+  tm_scope: none
+  language_id: 754411322
 CMake:
   type: programming
   extensions:
