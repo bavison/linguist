@@ -114,11 +114,6 @@ ARM assembly:
   aliases:
   - armasm
   ace_mode: text
-  extensions:
-  - ".s"
-  - ".hdr"
-  filenames:
-  - VersionASM
   color: "#eeeebb"
   tm_scope: none
   language_id: 81614556
@@ -505,8 +500,6 @@ C:
   - ".cats"
   - ".h"
   - ".idc"
-  filenames:
-  - VersionNum
   interpreters:
   - tcc
   ace_mode: c_cpp
